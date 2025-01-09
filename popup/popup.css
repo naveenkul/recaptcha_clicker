@@ -1,0 +1,24 @@
+.container {
+  width: 300px;
+  padding: 20px;
+}
+
+button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button#stopBtn {
+  background-color: #f44336;
+} 
